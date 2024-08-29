@@ -1,22 +1,18 @@
-Instructions
+# Instructions
 
 ![alt text](https://github.com/Arunnpuram/vscode-settings/blob/main/vscode-settings.png)
 
+1. Install "Custom CSS and JS Loader" VS Code Extension.
 
-Install "Custom CSS and JS Loader" VS Code Extension.
+2. Copy the contents of `settings.json` to your VS Code's `settings.json` (warning: it will overwrite your settings).
 
-Copy the contents of settings.json to your VS Code's settings.json (warning: it will overwrite your settings).
-Add vscode_custom_css.imports array to your settings.json file:
+3. Add `vscode_custom_css.imports` array to your `settings.json` file:
 
-"vscode_custom_css.imports": [
-    // Absolute file paths for your css/js files
-    // For Mac or Linux
-    // "file:///Users/your-user-name/custom-vscode.css",
-    // "file:///Users/your-user-name/custom-vscode-script.js"
-    // For Windows
-    // "file:///C:/path-of-custom-css/custom-vscode.css",
-    // "file:///C:/path-of-custom-css/custom-vscode-script.js"
-],
+   ```json
+   "vscode_custom_css.imports": [
+       // "file:///C:/path-of-custom-css/custom-vscode.css",
+       // "file:///C:/path-of-custom-css/custom-vscode-script.js"
+   ],
 
 You might need to take ownership of the CSS/JS files you made or run VS Code with admin privileges on certain operating system:
 Mac and Linux users
