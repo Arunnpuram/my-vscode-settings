@@ -2,9 +2,9 @@ Instructions
 
 ![alt text](https://github.com/Arunnpuram/vscode-settings/blob/main/vscode-settings.png)
 
-NOTE: Please take time to read the short documentation of "Custom CSS and JS Loader" for some useful tips for various operating systems to avoid issues regarding the changes not taking effect.
 
 Install "Custom CSS and JS Loader" VS Code Extension.
+
 Copy the contents of settings.json to your VS Code's settings.json (warning: it will overwrite your settings).
 Add vscode_custom_css.imports array to your settings.json file:
 
@@ -13,7 +13,6 @@ Add vscode_custom_css.imports array to your settings.json file:
     // For Mac or Linux
     // "file:///Users/your-user-name/custom-vscode.css",
     // "file:///Users/your-user-name/custom-vscode-script.js"
-
     // For Windows
     // "file:///C:/path-of-custom-css/custom-vscode.css",
     // "file:///C:/path-of-custom-css/custom-vscode-script.js"
