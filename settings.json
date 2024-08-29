@@ -1,28 +1,25 @@
 {
-    "yaml.schemas": {
-        "file:///c%3A/Users/arun.puram/.vscode/extensions/atlassian.atlascode-3.0.10/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
-    },
     "redhat.telemetry.enabled": true,
     "atlascode.jira.jqlList": [
         {
-            "id": "d487c094-6ac4-4798-be1b-2f1f94dbc093",
+            "id": "id-here",
             "enabled": true,
-            "name": "My wwwwtechplatform Issues",
-            "query": "assignee = currentUser() AND resolution = Unresolved ORDER BY lastViewed DESC",
-            "siteId": "bfd3ae1f-e214-462f-b784-0eb64f93b3e6",
+            "name": "My JIRA issues",
+            "query": "DESC",
+            "siteId": "ID here",
             "monitor": true
         }
     ],
     "atlascode.jira.enabled": true,
     "atlascode.jira.lastCreateSiteAndProject": {
-        "siteId": "bfd3ae1f-e214-462f-b784-0eb64f93b3e6",
-        "projectKey": "LDR"
+        "siteId": "ID here",
+        "projectKey": "key"
     },
     "diffEditor.maxComputationTime": 0,
     "git.autofetch": true,
     "editor.inlineSuggest.suppressSuggestions": true,
     "vscode_custom_css.imports": [
-        "file:///C:/Users/arun.puram/Documents/Workspace/.vscode/VSCodeUI/custom-vscode.css"
+        "file:///path-to-css-file-here"
         
     ],
     "workbench.iconTheme": "material-icon-theme",
