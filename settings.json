@@ -1,0 +1,39 @@
+{
+    "yaml.schemas": {
+        "file:///c%3A/Users/arun.puram/.vscode/extensions/atlassian.atlascode-3.0.10/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    },
+    "redhat.telemetry.enabled": true,
+    "atlascode.jira.jqlList": [
+        {
+            "id": "d487c094-6ac4-4798-be1b-2f1f94dbc093",
+            "enabled": true,
+            "name": "My wwwwtechplatform Issues",
+            "query": "assignee = currentUser() AND resolution = Unresolved ORDER BY lastViewed DESC",
+            "siteId": "bfd3ae1f-e214-462f-b784-0eb64f93b3e6",
+            "monitor": true
+        }
+    ],
+    "atlascode.jira.enabled": true,
+    "atlascode.jira.lastCreateSiteAndProject": {
+        "siteId": "bfd3ae1f-e214-462f-b784-0eb64f93b3e6",
+        "projectKey": "LDR"
+    },
+    "diffEditor.maxComputationTime": 0,
+    "git.autofetch": true,
+    "editor.inlineSuggest.suppressSuggestions": true,
+    "vscode_custom_css.imports": [
+        "file:///C:/Users/arun.puram/Documents/Workspace/.vscode/VSCodeUI/custom-vscode.css"
+        
+    ],
+    "workbench.iconTheme": "material-icon-theme",
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "update.mode": "none",
+    "black-py.useIntegratedTerminal": true,
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "php.validate.executablePath": "",
+    "workbench.settings.useSplitJSON": true,
+    "python.createEnvironment.trigger": "off",
+    "workbench.colorTheme": "Dracula Theme"
+}
